@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- THIS IS A COMMENT-->
+<html>
+  <!-- Information we don't see on the screen (Title, link CSS, Fonts, background information)-->
+  <head>
+    <title>Matthew Bubb | Digital Portfolio</title>
+    <!--meta tag, with attributes in them-->
+    <meta
+      name="Description"
+      content="Matt Bubb is a senior at Penn State University"
+    />
+    <meta charset="utf-8" />
+    <!--meta tag for search engines-->
+    <meta name="robots" content="index,follow" />
+    <!-- link to our icon for the webpage rel attribute relatioship between current document and linked document-->
+    <!-- href attribute is where rel is located-->
+    <!--for icons go to icon-icons.com or iconmonstr.com-->
+    <link rel="icon" href="/img/computer_icon_161261.ico" />
+    <meta name="viewport" content="width = device-width, initial-scale=1" />
+  </head>
+  <!-- BODY TAG Infomation we do see on the screen-->
+  <body>
+    <!-- H1 Tag Header -->
+    <h1>Hello World</h1>
+    <!--P tag is a paragraph for any text-->
+    <!-- Formatting text tags <strong> </strong> -->
+    <p>Hi! My name is <strong>Matt</strong>, Welcome to my website!</p>
+
+    <!--Image Tag USE pexels for free images-->
+    <!--<img width="70" height="70" src="/img/pexels-kevin-ku-577585 (1).jpg" /> -->
+
+    <!--A tag...link for page-->
+    <!--EMBED IMAGE AS A URL LINK-->
+    <a target="_blank" href="https://www.linkedin.com/in/matt-bubb-343bb1158/"
+      ><img src="/img/iconmonstr-linkedin-3.svg" alt="" />
+    </a>
+    <h5>Questions or Comments? Leave me a message and i'll reach back out!</h5>
+    <!--Form for user input: label for descritptive text, input for type of input -->
+    <!--Actions-->
+    <form>
+      <label for="userName">Name</label>
+      <input
+        name="userName"
+        type="text"
+        id="userName"
+        placeholder="Name"
+        required
+      />
+
+      <label for="userEmail">Email</label>
+      <input
+        name="userEmail"
+        type="email"
+        id="userEmail"
+        placeholder="Email"
+        required
+      />
+
+      <label for="userMessage">Message</label>
+      <textarea
+        name="userMessage"
+        id="userMessage"
+        cols="30"
+        rows="1"
+        wrap="hard"
+        placeholder="Message"
+        required
+      ></textarea>
+
+      <button type="userSubmit">Submit</button>
+    </form>
+  </body>
+</html>
