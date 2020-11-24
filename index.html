@@ -3,7 +3,7 @@
 <html>
   <!-- Information we don't see on the screen (Title, link CSS, Fonts, background information)-->
   <head>
-    <title>Matthew Bubb | Digital Portfolio</title>
+    <title>Matt Bubb | Digital Portfolio</title>
     <!--meta tag, with attributes in them-->
     <meta
       name="Description"
@@ -21,11 +21,21 @@
   <!-- BODY TAG Infomation we do see on the screen-->
   <body>
     <!-- H1 Tag Header -->
-    <h1>Hello World</h1>
+
     <!--P tag is a paragraph for any text-->
     <!-- Formatting text tags <strong> </strong> -->
-    <p>Hi! My name is <strong>Matt</strong>, Welcome to my website!</p>
-
+    <header>
+      <h1>Hi, my name is <strong>Matt</strong>. Welcome to my website!</h1>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About Me</li>
+          <li>Education</li>
+          <li>Interests</li>
+          <li>Pictures</li>
+        </ul>
+      </nav>
+    </header>
     <!--Image Tag USE pexels for free images-->
     <!--<img width="70" height="70" src="/img/pexels-kevin-ku-577585 (1).jpg" /> -->
 
@@ -34,6 +44,20 @@
     <a target="_blank" href="https://www.linkedin.com/in/matt-bubb-343bb1158/"
       ><img src="/img/iconmonstr-linkedin-3.svg" alt="" />
     </a>
+
+    <a target="_blank" href="https://github.com/mdbubbpsu"
+      ><img src="/img/iconmonstr-github-1.svg" alt="" />
+    </a>
+
+    <h2>About Me</h2>
+    <p class="About-Me">
+      <strong>Write some descriptive stuff about me</strong> <br />
+    </p>
+    <h2>Eductation</h2>
+    <p class="About-Me">
+      <strong>Write something about my education</strong> <br />
+    </p>
+
     <h5>Questions or Comments? Leave me a message and i'll reach back out!</h5>
     <p style="font-size: 11px">
       <i>TODO: Figure out how to store the results of the messages</i>
@@ -58,7 +82,7 @@
         placeholder="Email"
         required
       />
-
+      <br />
       <label for="userMessage">Message</label>
       <textarea
         name="userMessage"
@@ -72,6 +96,10 @@
 
       <button type="userSubmit">Submit</button>
     </form>
+
+    <footer>
+      <p>Website coded by Matthew Bubb in 2020</p>
+    </footer>
   </body>
 </html>
 
