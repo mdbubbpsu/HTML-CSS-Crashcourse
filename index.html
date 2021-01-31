@@ -4,6 +4,11 @@
   <!-- Information we don't see on the screen (Title, link CSS, Fonts, background information)-->
   <head>
     <title>Matt Bubb | Digital Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <!--meta tag, with attributes in them-->
     <meta
       name="Description"
@@ -17,90 +22,45 @@
     <!--for icons go to icon-icons.com or iconmonstr.com-->
     <link rel="icon" href="/img/computer_icon_161261.ico" />
     <meta name="viewport" content="width = device-width, initial-scale=1" />
+    <!-- link our CSS stylesheet-->
+    <link rel="stylesheet" href="/style.css" />
   </head>
-  <!-- BODY TAG Infomation we do see on the screen-->
   <body>
-    <!-- H1 Tag Header -->
-
-    <!--P tag is a paragraph for any text-->
-    <!-- Formatting text tags <strong> </strong> -->
-    <header>
-      <h1>Hi, my name is <strong>Matt</strong>. Welcome to my website!</h1>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Education</li>
-          <li>Interests</li>
-          <li>Pictures</li>
-        </ul>
-      </nav>
+    <header id="title">
+      <div class="container">
+        <h1>My Website</h1>
+      </div>
     </header>
-    <!--Image Tag USE pexels for free images-->
-    <!--<img width="70" height="70" src="/img/pexels-kevin-ku-577585 (1).jpg" /> -->
 
-    <!--A tag...link for page-->
-    <!--EMBED IMAGE AS A URL LINK-->
-    <a target="_blank" href="https://www.linkedin.com/in/matt-bubb-343bb1158/"
-      ><img src="/img/iconmonstr-linkedin-3.svg" alt="" />
-    </a>
+    <nav id="navBar">
+      <div class="container">
+        <ul>
+          <li><a id="goHome" href="#">Home</a></li>
+          <li><a id="goAboutMe" href="#">About Me</a></li>
+          <li><a id="goEd" href="#">Education</a></li>
+          <li><a id="goContact" href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <a target="_blank" href="https://github.com/mdbubbpsu"
-      ><img src="/img/iconmonstr-github-1.svg" alt="" />
-    </a>
-
-    <h2>About Me</h2>
-    <p class="About-Me">
-      <strong>Write some descriptive stuff about me</strong> <br />
-    </p>
-    <h2>Eductation</h2>
-    <p class="About-Me">
-      <strong>Write something about my education</strong> <br />
-    </p>
-
-    <h5>Questions or Comments? Leave me a message and i'll reach back out!</h5>
-    <p style="font-size: 11px">
-      <i>TODO: Figure out how to store the results of the messages</i>
-    </p>
-    <!--Form for user input: label for descritptive text, input for type of input -->
-    <!--Actions-->
-    <form>
-      <label for="userName">Name</label>
-      <input
-        name="userName"
-        type="text"
-        id="userName"
-        placeholder="Name"
-        required
-      />
-
-      <label for="userEmail">Email</label>
-      <input
-        name="userEmail"
-        type="email"
-        id="userEmail"
-        placeholder="Email"
-        required
-      />
-      <br />
-      <label for="userMessage">Message</label>
-      <textarea
-        name="userMessage"
-        id="userMessage"
-        cols="30"
-        rows="1"
-        wrap="hard"
-        placeholder="Message"
-        required
-      ></textarea>
-
-      <button type="userSubmit">Submit</button>
-    </form>
-
-    <footer>
+    <div class="Container">
+      <aside id="sidebar"></aside>
+    </div>
+    <footer id="Footer">
       <p>Website coded by Matthew Bubb in 2020</p>
+      <aside>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/matt-bubb-343bb1158/"
+          ><img src="/img/iconmonstr-linkedin-3.svg" alt="" />
+        </a>
+      </aside>
+      <a target="_blank" href="https://github.com/mdbubbpsu"
+        ><img src="/img/iconmonstr-github-1.svg" alt="" />
+      </a>
     </footer>
   </body>
+  <script src="main.js"></script>
 </html>
 
-<!--STOPPED AT 1:10:52 https://www.youtube.com/watch?v=vQWlgd7hV4A&ab_channel=DevEd-->
+<!--STOPPED AT 2:56:48 https://www.youtube.com/watch?v=vQWlgd7hV4A&ab_channel=DevEd-->

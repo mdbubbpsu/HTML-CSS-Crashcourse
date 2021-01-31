@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: white;
+  margin: 0;
+  line-height: 1.6em;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#title {
+  font: normal 25px Open Sans;
+  background-color: #003c67;
+  color: white;
+}
+#navBar {
+  background-color: gray;
+  color: gray;
+}
+#navBar ul {
+  padding: 0;
+  list-style: square;
+}
+#navBar li {
+  display: inline;
+}
+
+#navBar a {
+  color: white;
+  font-size: 20px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+#Footer {
+  color: black;
+  text-align: center;
+}
+
+#Footer a {
+  padding: 0;
+  display: inline-flex;
+}
+/* For specific classes*/
+/* .myClass{}
+
+/* For specific IDs*/
+/* #myID{}s
+
+
+/* Precidence: !important ID, Class, Elements (H1) */
+
+/*Margins and Paddings*/
+
+/* Margin --> outside space of element */
+/* Padding --> inside size of the element */
