@@ -4,17 +4,17 @@ var goEd = document.getElementById('goEd')
 var goContact = document.getElementById('goContact')
 
 goHome.onclick = function(){
-    console.log("Go Home!")
+    window.location.href = "index.html";
 };
 
 goAboutMe.onclick = function(){
-    console.log("Go About Me!")
+    window.location.href = "aboutMe.html";
 };
 
 goEd.onclick = function(){
-    console.log("Go Education!")
+    window.location.href = "education.html";
 };
 
 goContact.onclick = function(){
-    console.log("Go Contact Me!")
+    window.location.href = "contactMe.html";
 };

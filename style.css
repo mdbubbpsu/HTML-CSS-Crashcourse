@@ -8,6 +8,7 @@ body {
   color: white;
   margin: 0;
   line-height: 1.6em;
+  padding-bottom: 60px;
 }
 .container {
   width: 80%;
@@ -16,7 +17,7 @@ body {
 }
 
 #title {
-  font: normal 25px Open Sans;
+  font: normal 25px sans-serif;
   background-color: #003c67;
   color: white;
 }
@@ -41,12 +42,17 @@ body {
 
 #Footer {
   color: black;
+  display: inline;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
   text-align: center;
+  width: 100%;
 }
 
-#Footer a {
-  padding: 0;
-  display: inline-flex;
+.aboutMe {
+  padding: 20px;
+  color: #003c67;
 }
 /* For specific classes*/
 /* .myClass{}
