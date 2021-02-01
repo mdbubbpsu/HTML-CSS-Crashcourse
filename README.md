@@ -1,1 +1,1 @@
-Having no real experience in front end programming, I wanted to learn more about it, so this is a intro crashcourse on HTML and CSS from the YouTube tutorial https://bit.ly/3hCwCgT. I have a lot of learning to do, and I look forward to it. 
+Having no real experience in front end programming, I wanted to learn more about it, so this is an intro HTML/CSS/Javascript project where I work towards creating a digital portfolio of myself. I have a lot of learning to do, and I look forward to it. 
