@@ -54,6 +54,38 @@ body {
   padding: 20px;
   color: #003c67;
 }
+
+.educationHeader {
+  padding: 40px;
+  color: #003c67;
+}
+
+.educationHeader h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  padding-top: None;
+}
+.parag {
+  border: #003c67;
+  border-style: dotted;
+  padding: 20px;
+  color: #003c67;
+  display: inline-flex;
+}
+.educationDesc {
+  display: inline-flex;
+}
+.parag img {
+  padding: none;
+  float: right;
+  border-radius: 2%;
+  max-height: 100%;
+  height: auto;
+  width: 50%;
+  display: inline-flex;
+}
+
 /* For specific classes*/
 /* .myClass{}
 
